@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100%;
+    width: 100%;
+}
+
+#main{
+    font-weight: normal;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(196, 255, 183, 0.97);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.shape{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 200px;
+    width: 200px;
+    /* background-color: rgb(255, 208, 241); */
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+#circle{
+   border-radius: 50%;
+   margin-left:10px;
+   background-color:black;
+}
+
+#circle:hover{
+    background-color:rgb(175, 175, 175);
+}
+
+#circle h1{
+    color:aliceblue;
+}
+
+#diamond{
+    background-color:black;
+    rotate: 45deg;
+    margin-top: 50px;
+    width:141.44;
+    box-shadow: inset;
+}
+
+#diamond h1{
+    rotate:-45deg;
+    color:aliceblue;
+    
+}
+#diamond:hover{
+    background-color: rgb(175,175,175    );
+}
+
+#square{
+    background-color:black;
+}
+#square h1{
+    color:aliceblue;
+}
+
+#square:hover{
+    background-color: rgb(175,175,175);
+}
+
+
+
