@@ -1,0 +1,39 @@
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Database
+asyncpg==0.29.0
+redis[hiredis]==5.0.1
+
+# AI/ML
+langchain==0.1.0
+langchain-google-genai==0.0.8
+langchain-core==0.1.10
+langgraph==0.0.20
+google-generativeai==0.3.2
+
+# Vector Database - Pinecone
+pinecone-client==3.0.0
+
+# Firebase Admin (for auth verification)
+firebase-admin==6.4.0
+
+# Utilities
+python-dotenv==1.0.0
+python-multipart==0.0.6
+aiofiles==23.2.1
+httpx==0.25.2
+
+# Development
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
+
+# Production
+gunicorn==21.2.0
+prometheus-client==0.19.0
